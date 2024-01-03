@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year by Manish Raj</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(to bottom, #021B79, #1157E6);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .fireworks {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    /* Confetti Animation */
+    .confetti {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: #ffcc00;
+      opacity: 0.8;
+      border-radius: 50%;
+      pointer-events: none;
+      animation: confetti-fall 5s linear infinite;
+    }
+
+    @keyframes confetti-fall {
+      0% {
+        transform: translateY(-100vh) rotate(0deg);
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+      }
+    }
+
+    /* Randomize confetti positions */
+    .confetti:nth-child(1) { left: 5%; animation-delay: 0s; }
+    .confetti:nth-child(2) { left: 15%; animation-delay: 1s; }
+    .confetti:nth-child(3) { left: 25%; animation-delay: 2s; }
+    .confetti:nth-child(4) { left: 5%; animation-delay: 0s; }
+    .confetti:nth-child(5) { left: 15%; animation-delay: 1s; }
+    .confetti:nth-child(6) { left: 25%; animation-delay: 2s; }
+    .confetti:nth-child(7) { left: 5%; animation-delay: 0s; }
+    .confetti:nth-child(8) { left: 15%; animation-delay: 1s; }
+    .confetti:nth-child(9) { left: 25%; animation-delay: 2s; }
+    .confetti:nth-child(1) { left: 5%; animation-delay: 0s; }
+    .confetti:nth-child(2) { left: 15%; animation-delay: 1s; }
+    .confetti:nth-child(3) { left: 25%; animation-delay: 2s; }
+    .confetti:nth-child(4) { left: 5%; animation-delay: 0s; }
+    .confetti:nth-child(5) { left: 15%; animation-delay: 1s; }
+    .confetti:nth-child(6) { left: 25%; animation-delay: 2s; }
+    .confetti:nth-child(7) { left: 5%; animation-delay: 0s; }
+    .confetti:nth-child(8) { left: 15%; animation-delay: 1s; }
+    .confetti:nth-child(9) { left: 25%; animation-delay: 2s; }
+    .confetti:nth-child(10) { right: 5%; animation-delay: 0s; }
+    .confetti:nth-child(11) { right: 15%; animation-delay: 1s; }
+    .confetti:nth-child(12) { right: 25%; animation-delay: 2s; }
+    .confetti:nth-child(13) { left: 5%; animation-delay: 0s; }
+    .confetti:nth-child(14) { right: 15%; animation-delay: 1s; }
+    .confetti:nth-child(15) { right: 25%; animation-delay: 2s; }
+    .confetti:nth-child(10) { right: 5%; animation-delay: 0s; }
+    .confetti:nth-child(11) { right: 15%; animation-delay: 1s; }
+    .confetti:nth-child(12) { right: 25%; animation-delay: 2s; }
+    .confetti:nth-child(13) { left: 5%; animation-delay: 0s; }
+    .confetti:nth-child(14) { right: 15%; animation-delay: 1s; }
+    .confetti:nth-child(15) { right: 25%; animation-delay: 2s; }
+    .confetti:nth-child(10) { right: 5%; animation-delay: 0s; }
+    .confetti:nth-child(11) { right: 15%; animation-delay: 1s; }
+    .confetti:nth-child(12) { right: 25%; animation-delay: 2s; }
+    .confetti:nth-child(13) { left: 5%; animation-delay: 0s; }
+    .confetti:nth-child(14) { right: 15%; animation-delay: 1s; }
+    .confetti:nth-child(15) { right: 25%; animation-delay: 2s; }
+    /* Add more confetti by duplicating these lines and adjusting properties */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy New Year!</h1>
+    <p>May the coming year be filled with happiness, success, and prosperity.</p>
+    <img class="fireworks" src="image/fireworks-574739_640.jpg" alt="Fireworks">
+  </div>
+
+  <!-- Confetti -->
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <!-- Add more confetti by duplicating these lines -->
+</body>
+</html>
